@@ -58,6 +58,14 @@ header {
     color: white;
 }
 
+.logo-text-desktop {
+    display: inline;
+}
+
+.logo-text-mobile {
+    display: none;
+}
+
 .logo img {
     height: 50px;
 }
@@ -968,6 +976,14 @@ footer {
 @media (max-width: 768px) {
     .header-content {
         flex-direction: row;
+    }
+    
+    .logo-text-desktop {
+        display: none;
+    }
+    
+    .logo-text-mobile {
+        display: inline;
     }
     
     .hamburger {
